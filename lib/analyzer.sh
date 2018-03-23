@@ -38,7 +38,7 @@ REPORT_ID=${REPORT_ID:-$(date +%s)}
 PROCESS_IDS=$(ps -A -o pid,command | awk '/'"$PROCESS_PATTERN"'/ { print $1 }')
 
 if [ -z "${PROCESS_IDS}" ]; then
-	error "no node processes found in the target container, exiting.."
+	error "no ${PROCESS_PATTERN} processes found in the target container, exiting.."
 	exit 1
 fi
 
