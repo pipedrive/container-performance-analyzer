@@ -59,10 +59,15 @@ Please refer to `Dockerfile` and change `linux-perf-X` to kernel version your ho
 
 ### Inspired by
 http://www.brendangregg.com/perf.html
+
 https://github.com/davidmarkclements/0x/tree/c15fb159a3bc03fa47e7ba8766132d2f0bf713f6
+
 http://man7.org/linux/man-pages/man1/perf-record.1.html
+
 http://man7.org/linux/man-pages/man1/perf-script.1.html
+
 https://gist.github.com/trevnorris/9616784
+
 https://yunong.io/2015/11/23/generating-node-js-flame-graphs/
 
 ### Flamecharts generated using
