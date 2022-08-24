@@ -1,6 +1,6 @@
 {
   "name": "container-performance-analyzer",
   "description": "Container-based solution for performance analyzes",
-  "owner": "Pipedrive",
-  "type": "application"
+  "owner": "Core Services",
+  "type": "tool"
 }
